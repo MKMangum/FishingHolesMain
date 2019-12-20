@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:id="@+id/camera_button"
+            android:background="@drawable/camera"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_height="80sp"
+            android:text="@string/camera">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:id="@+id/ImageViewCamera">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/species_spinner"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/lure_spinner"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:digits="0123456789."
+            android:ems="10"
+            android:id="@+id/editTextLength"
+            android:hint="@string/edit_text_length">
+        </EditText>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:digits="0123456789."
+            android:ems="10"
+            android:id="@+id/editTextWeight"
+            android:hint="@string/edit_text_weight">
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/report_catch_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="@string/report_catch_button">
+
+        </Button>
+
+
+
+
+<fragment
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/catch_map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    map:cameraZoom="14"
+    tools:context=".ReportCatch" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mainMenuText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="20dp"
+        android:text="@string/mainMenuText">
+    </TextView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="40dp"
+        android:text="@string/mainMenuOptionOne"
+        android:backgroundTint="@android:color/holo_blue_light">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="40dp"
+        android:text="@string/mainMenuOptionTwo"
+        android:backgroundTint="@android:color/holo_blue_light">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="40dp"
+        android:text="@string/mainMenuOptionThree"
+        android:backgroundTint="@android:color/holo_blue_light">
+
+    </Button>
+</LinearLayout>

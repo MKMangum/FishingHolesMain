@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">FishingHolesMain</string>
+    <string name="title_activity_navigation_screen">NavigationScreen</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="mainMenuText">Select an Activity</string>
+    <string name="mainMenuOptionOne">Report Catch</string>
+    <string name="title_activity_search_for_fish">Search Map</string>
+    <string name="mainMenuOptionTwo">Search for fish on map</string>
+    <string name="mainMenuOptionThree">View My Catches</string>
+    <string name="title_activity_report_catch">Report Catch</string>
+    <string name="message1">Current Location</string>
+    <string name="button_text">OK</string>
+    <string name="temp_F">Temp</string>
+    <string name="edit_text_length">Enter length in inches</string>
+    <string name="edit_text_lure">Enter type of lure used</string>
+    <string name="edit_text_species">Enter species of fish</string>
+    <string name="edit_text_weight">Enter weight in pounds</string>
+    <string name="report_catch_button">Press to Report Catch</string>
+    <string name="icon">catch_image</string>
+    <string-array name="species_array">
+        <item>Large Mouth Bass</item>
+        <item>Small Mouth Bass</item>
+        <item>Chain Pickerel</item>
+        <item>White Perch</item>
+        <item>Yellow Perch</item>
+        <item>Brook Trout</item>
+        <item>Brown Trout</item>
+        <item>Rainbow Trout</item>
+        <item>Blue Catfish</item>
+        <item>Walleye</item>
+        <item>Common Carp</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="lure_array">
+        <item>Top Water</item>
+        <item>Spinner</item>
+        <item>Crank bait</item>
+        <item>Soft Plastic</item>
+        <item>Jig</item>
+        <item>Popper</item>
+        <item>Spoon</item>
+        <item>Live Bait</item>
+    </string-array>
+
+
+    <string name="catch_fragment">Catch :</string>
+    <string name="camera">Press Photo Button\nto Take Picture\nBefore Reporting Catch</string>
+</resources>
